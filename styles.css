@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    display: flex;
+    gap: 1rem;
+}
+input, label{
+    display: block;
+}
+.radio-group{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.my-form{
+    width: 800px;
+    border-radius: 0.356rem;
+    background-color: grey;
+}
+.form-header{
+    background-color: gray;
+    height: 50px;
+    padding: 0rem 1rem;
+}
+.form-body{
+    padding: 1rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+.form-footer{
+    background-color: grey;
+    display: flex;
+    justify-content:flex-end ;
+    padding: 1rem;
+}
+.item{
+    flex-grow: 1;
+}
+input{
+    width: 100%;
+    height: 30px;
+}
+.last-row{
+    justify-content: space-between;
+}
+.cancelbutton{
+    background-color: grey;
+}
+.sendbutton{
+    background-color: blue;
+}

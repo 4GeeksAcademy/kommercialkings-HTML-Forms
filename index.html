@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0e135d1d55.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formt</title>
+</head>
+<body>
+    <form class="my-form">
+        <div class="form-header"> 
+            <h1>payment form example</h1>
+        </div>
+        <div class="form-body"> 
+            <div class="row">
+                <div class="item">
+                    <label for="card-number">Card #</label>
+                    <input type="number" id="card-number" placeholder="xxxxxxxxxxxxxxxx">
+                 </div>
+                <div class="item">
+                    <label for="card-cvc">CVC #</label>
+                    <input type="number" id="card-cvc" placeholder="0000"> 
+                </div>
+                <div class="item">
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount" placeholder="amount">
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <label for="first-name">First Name</label>
+                    <input type="text"id="first-name">
+                </div>
+                <div class="item">
+                    <label for="last-name">Last Name </label>
+                    <input type="text" id="last-name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <label for="city">City</label>
+                    <input type="text" id="city">
+                </div>
+                <div class="item">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="Alabama">Alabama</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="postal-code">Postal Code</label>
+                    <input type="text"id="postal-code"> 
+                </div>
+            </div>
+            <div class="row last-row">
+                <div class="radio-group">
+                    <input type="radio"name="accepted-payment-options">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <input type="radio"name="accepted-payment-options">
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <input type="radio"name="accepted-payment-options">
+                    <i class="fa-brands fa-cc-discover"></i>
+                    <input type="radio"name="accepted-payment-options">
+                    <i class="fa-brands fa-cc-amex"></i>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="5"></textarea>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="form-footer">
+            <button class="cancelbutton">cancel</button>
+            <button class="sendbutton">send</button>
+        </div>
+    
+       
+    </form>
+
+     
+
+
+
+    
+</body>
+</html>git add
